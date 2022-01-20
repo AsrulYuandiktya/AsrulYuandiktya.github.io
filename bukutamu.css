@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, #3d6104, #CBD529, black)
+}
+.warp {
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+    font-family: fantasy sans ms;
+    background-color: lightslategray;
+}
+.container {
+    padding: 5px;
+    margin: 10%;
+}
+h1 {
+    text-align: center;
+}
+table td {
+    padding: 5px;
+}
+button {
+    width: 60px;
+    font-family: fantasy sans ms;
+    height: 30px;
+    background-color: dodgerblue;
+    border-radius: 7px;
+}

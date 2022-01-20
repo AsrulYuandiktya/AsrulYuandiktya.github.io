@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buku Tamu | AyndCoffee</title>
+        <link rel="stylesheet" type="text/css" href="bukutamu.css">
+    </head>
+    <body>
+        <div class="warp">
+            <di class="container">
+                <h1>Buku Tamu</h1>
+                <form action="p.html" method="POST">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td><input type="text" name="nama"></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td><input type="alamat"></textarea><td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="text" name="email"></textarea><td>
+                        </tr>
+                        <tr>
+                            <td>Jenis kelamin</td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name ="jk" value="Laki-laki"> Laki-laki
+                                <input type="radio" name ="jk" value="Laki-laki"> Perempuan
+                            <td>
+                        </tr>
+                        <tr>
+                            <td>No Hp</td>
+                            <td>:</td>
+                            <td><input type="text" name="no_hp"><td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td>
+                                <select name="info">
+                                    <center>
+                                        <option selected="Select">--= pilih =--</option>
+                                    </center>
+                                        <option value="Islam"> Islam </option>
+                                        <option value="Katolik"> Katolik </option>
+                                        <option value="Kristen"> Kristen </option>
+                                        <option value="Hindhu"> Hindhu </option>
+                                        <option value="Khonghucu"> Khonghucu </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal lahir</td>
+                            <td>:</td>
+                            <td><input type="date" name="tanggal_lahir"><td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <button type="submit" name="kirim">Kirim</button>
+                                <button type="reset" name="reset">Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <form action="index.html" method="POST">
+                    <button type="kembali" name="kembali">Kembali</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
